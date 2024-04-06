@@ -16,6 +16,7 @@ public class BlogAppService {
     @Autowired
     BlogAppPostRepository blogAppPostRepository;
 
+    //um comentario qualquer
     public List<BlogAppPostModel> findAll() {
         return blogAppPostRepository .findAll();
     }
