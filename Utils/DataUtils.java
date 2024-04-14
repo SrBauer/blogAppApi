@@ -13,7 +13,7 @@ import java.util.List;
 
 @Component
 public class DataUtils {
-    @Autowired
+   /* @Autowired
     BlogAppPostRepository blogAppPostRepository;
 
     @PostConstruct
@@ -51,5 +51,5 @@ public class DataUtils {
             BlogAppPostModel postSaved = blogAppPostRepository.save(post);
             System.out.println(postSaved.getId());
         }
-    }
+    }*/
 }

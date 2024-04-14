@@ -30,4 +30,5 @@ public class BlogAppService {
     public void delete(BlogAppPostModel post){
         blogAppPostRepository.delete(post);
 }
+
 }
